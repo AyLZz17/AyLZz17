@@ -18,7 +18,7 @@ Actualmente estoy fortaleciendo mi experiencia en desarrollo full-stack, arquite
 - 🌱 Actualmente trabajando en proyectos de comercio electrónico, predicción y gestión de ventas.
 
 <p align="center">
-  <img src="./ChatGPT%20Image%2029%20sept%202026%2C%2020_35_27.png" alt="Portada profesional de AyLZz17" width="100%" />
+  <img src="./assets/portada-perfil.png" alt="Portada profesional de AyLZz17" width="100%" />
 </p>
 
 ## Stack tecnológico

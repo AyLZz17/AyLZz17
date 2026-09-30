@@ -45,7 +45,7 @@ También trabajo con DBeaver, Visual Studio Code, Visual Studio, Apache NetBeans
 Machine Learning · Codex · GitHub Copilot · Claude Code · OpenCode · Ollama
 
 ### Lenguajes en proyectos Activos
-![Top Languages](https://ghstats.dev/api/langs?username=AyLZz17&theme=midnight)
+!![Top Languages](https://ghstats.dev/api/langs?username=AyLZz17)
 
 ---
 

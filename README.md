@@ -1,5 +1,9 @@
 # Hola, soy AyLZz17 👋
 
+<p align="center">
+  <img src="./assets/portada-perfil.png" alt="Portada profesional de AyLZz17" width="100%" />
+</p>
+
 ## Ingeniero en Sistemas · Desarrollador de Software
 
 Construyo soluciones web con una perspectiva empresarial: productos mantenibles, APIs claras, datos bien estructurados y despliegues preparados para crecer.
@@ -17,9 +21,6 @@ Actualmente estoy fortaleciendo mi experiencia en desarrollo full-stack, arquite
 - 🤖 Incorporando herramientas de IA para investigar, prototipar y mejorar el ciclo de desarrollo.
 - 🌱 Actualmente trabajando en proyectos de comercio electrónico, predicción y gestión de ventas.
 
-<p align="center">
-  <img src="./assets/portada-perfil.png" alt="Portada profesional de AyLZz17" width="100%" />
-</p>
 
 ## Stack tecnológico
 

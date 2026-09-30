@@ -4,7 +4,7 @@
 
 # AyLZz17
 
-### Ingeniero en Sistemas · Desarrollador de Software
+### Software Developer · Software Engineer
 
 Desarrollo soluciones web y APIs con enfoque empresarial, combinando arquitectura, datos, cloud y machine learning.
 

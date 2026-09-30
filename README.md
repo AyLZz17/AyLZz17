@@ -32,6 +32,7 @@ Desarrollo soluciones web y APIs con enfoque empresarial, combinando arquitectur
 
 Tecnologías adicionales: REST API, DBeaver, Apache NetBeans, Machine Learning, Codex, GitHub Copilot, Claude Code, OpenCode y Ollama.
 
+
 ## Proyectos
 
 | Proyecto | Descripción |
@@ -39,6 +40,12 @@ Tecnologías adicionales: REST API, DBeaver, Apache NetBeans, Machine Learning, 
 | [Sistema de Predicción Crypto - XMR Monero](https://github.com/AyLZz17/SistemaPrediccionCrypto-XMRMonero) | Análisis y predicción de datos relacionados con Monero. |
 | [Mai Repostería](https://github.com/AyLZz17/Mai-Reposteria-WebProject) | Aplicación web para una marca de repostería. |
 | [Ventas de Instrumentos Musicales](https://github.com/AyLZz17/VentasInstrumentos-Musicales) | Solución web para gestión y comercialización de instrumentos. |
+
+### Lenguajes en proyectos activos
+![Top Languages](https://ghstats.dev/api/langs?username=AyLZz17)
+
+### Stats
+![GitHub Stats Card](https://ghstats.dev/api/card?username=AyLZz17&theme=midnight)
 
 <div align="center">
 

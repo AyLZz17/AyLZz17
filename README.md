@@ -12,6 +12,12 @@ Desarrollo soluciones web y APIs con enfoque empresarial, combinando arquitectur
 
 </div>
 
+## Perfil profesional
+
+Como desarrollador de software, me enfoco en transformar necesidades reales en soluciones digitales claras, escalables y mantenibles. Mi experiencia e intereses abarcan el desarrollo web full-stack, la construcción de APIs REST, la integración de bases de datos y la automatización de procesos.
+
+Me interesa especialmente aplicar buenas prácticas de arquitectura, control de versiones, documentación y despliegue cloud para crear productos que aporten valor al negocio. Actualmente continúo fortaleciendo mis conocimientos en machine learning, AWS y herramientas de inteligencia artificial aplicadas al desarrollo.
+
 ## Stack tecnológico
 
 <div align="center">

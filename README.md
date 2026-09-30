@@ -44,6 +44,9 @@ También trabajo con DBeaver, Visual Studio Code, Visual Studio, Apache NetBeans
 
 Machine Learning · Codex · GitHub Copilot · Claude Code · OpenCode · Ollama
 
+### Lenguajes en proyectos Activos
+![Top Languages](https://ghstats.dev/api/langs?username=AyLZz17&theme=midnight)
+
 ---
 
 ## Proyectos en construcción
@@ -61,6 +64,8 @@ Aplicación web para una marca de repostería, enfocada en presentar productos y
 Solución web en desarrollo para la gestión y comercialización de instrumentos musicales.
 
 > Estos proyectos están en construcción; sus funcionalidades y tecnologías pueden evolucionar durante el desarrollo.
+
+![GitHub Stats Card](https://ghstats.dev/api/card?username=AyLZz17&theme=midnight)
 
 ## Certificaciones
 

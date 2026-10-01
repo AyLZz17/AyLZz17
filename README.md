@@ -51,7 +51,7 @@ Tecnologías adicionales: REST API, DBeaver, Apache NetBeans, Machine Learning, 
 ![Sistema de Predicción Crypto - XMR Monero] (https://sistema-prediccion-crypto-xmr-moner.vercel.app) 
 
 ### Lenguajes en proyectos activos
-![Top Languages](https://ghstats.dev/api/langs?username=AyLZz17)
+[Sistema de Predicción Crypto - XMR Monero]([https://github.com/AyLZz17/SistemaPrediccionCrypto-XMRMonero](https://sistema-prediccion-crypto-xmr-moner.vercel.app))
 
 ### Stats
 ![GitHub Stats Card](https://ghstats.dev/api/card?username=AyLZz17&theme=midnight)

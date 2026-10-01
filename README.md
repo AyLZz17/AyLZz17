@@ -48,7 +48,7 @@ Tecnologías adicionales: REST API, DBeaver, Apache NetBeans, Machine Learning, 
 | [Ventas de Instrumentos Musicales](https://github.com/AyLZz17/VentasInstrumentos-Musicales) | Solución web para gestión y comercialización de instrumentos. |
 
 ### Proyectos desplegados
-![Sistema de Predicción Crypto - XMR Monero] (https://sistema-prediccion-crypto-xmr-moner.vercel.app) 
+[Sistema de Predicción Crypto - XMR Monero](https://sistema-prediccion-crypto-xmr-moner.vercel.app) 
 
 ### Lenguajes en proyectos activos
 [Sistema de Predicción Crypto - XMR Monero]([https://github.com/AyLZz17/SistemaPrediccionCrypto-XMRMonero](https://sistema-prediccion-crypto-xmr-moner.vercel.app))

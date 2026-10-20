@@ -14,7 +14,7 @@ Desarrollo soluciones web y APIs con enfoque empresarial, combinando arquitectur
 
 ## Perfil profesional
 
-Como desarrollador de software, me enfoco en transformar necesidades reales en soluciones digitales claras, escalables y mantenibles. Mi experiencia e intereses abarcan el desarrollo web full-stack, la construcción de APIs REST, la integración de bases de datos y la automatización de procesos.
+Como desarrollador de software, me enfoco en transformar necesidades reales en soluciones digitales claras, escalables y mantenibles. Mi experiencia e intereses abarcan el desarrollo web full-stack, la integración de bases de datos y la automatización de procesos.
 
 Me interesa especialmente aplicar buenas prácticas de arquitectura, control de versiones, documentación y despliegue cloud para crear productos que aporten valor al negocio. Actualmente continúo fortaleciendo mis conocimientos en machine learning, AWS y herramientas de inteligencia artificial aplicadas al desarrollo.
 
@@ -36,7 +36,7 @@ Me interesa especialmente aplicar buenas prácticas de arquitectura, control de 
 
 </div>
 
-Tecnologías adicionales: REST API, DBeaver, Apache NetBeans, Machine Learning, Codex, GitHub Copilot, Claude Code, OpenCode y Ollama.
+Tecnologías adicionales: DBeaver, Apache NetBeans,Codex, GitHub Copilot, Claude Code, OpenCode y Ollama.
 
 
 ## Proyectos Activos
@@ -45,13 +45,6 @@ Tecnologías adicionales: REST API, DBeaver, Apache NetBeans, Machine Learning, 
 | --- | --- |
 | [Sistema de Predicción Crypto - XMR Monero](https://github.com/AyLZz17/SistemaPrediccionCrypto-XMRMonero) | Análisis y predicción de datos relacionados con Monero. |
 | [Mai Repostería](https://github.com/AyLZz17/Mai-Reposteria-WebProject) | Aplicación web para una marca de repostería. |
-| [Ventas de Instrumentos Musicales](https://github.com/AyLZz17/VentasInstrumentos-Musicales) | Solución web para gestión y comercialización de instrumentos. |
-
-### Proyectos desplegados
-[Sistema de Predicción Crypto - XMR Monero](https://sistema-prediccion-crypto-xmr-moner.vercel.app) 
-
-### Lenguajes en proyectos activos
-[Sistema de Predicción Crypto - XMR Monero]([https://github.com/AyLZz17/SistemaPrediccionCrypto-XMRMonero](https://sistema-prediccion-crypto-xmr-moner.vercel.app))
 
 ### Stats
 ![GitHub Stats Card](https://ghstats.dev/api/card?username=AyLZz17&theme=midnight)

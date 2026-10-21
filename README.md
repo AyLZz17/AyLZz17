@@ -46,6 +46,10 @@ Tecnologías adicionales: DBeaver, Apache NetBeans,Codex, GitHub Copilot, Claude
 | [Sistema de Predicción Crypto - XMR Monero](https://github.com/AyLZz17/SistemaPrediccionCrypto-XMRMonero) | Análisis y predicción de datos relacionados con Monero. |
 | [Mai Repostería](https://github.com/AyLZz17/Mai-Reposteria-WebProject) | Aplicación web para una marca de repostería. |
 
+### Desplegados
+[Mai Reposteria: Tienda de emprendimiento de Reposteria ](https://mai-reposteria.app)
+
+
 ### Stats
 ![GitHub Stats Card](https://ghstats.dev/api/card?username=AyLZz17&theme=midnight)
 

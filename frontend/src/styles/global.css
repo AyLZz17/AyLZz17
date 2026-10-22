@@ -73,16 +73,18 @@ a:focus-visible {
 }
 
 .site-header {
-  position: sticky;
+  position: relative;
   z-index: 10;
-  top: 0;
   display: flex;
   min-height: 5.5rem;
   align-items: center;
   justify-content: space-between;
   gap: 1.5rem;
-  border-bottom: 1px solid var(--line);
-  background: rgb(16 9 11 / 78%);
+  margin-top: clamp(0.75rem, 2vw, 1.25rem);
+  padding-inline: clamp(1rem, 2vw, 1.5rem);
+  border: 1px solid var(--line);
+  border-radius: 1rem;
+  background: rgb(16 9 11 / 88%);
   backdrop-filter: blur(20px);
 }
 

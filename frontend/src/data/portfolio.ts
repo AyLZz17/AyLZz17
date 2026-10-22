@@ -21,7 +21,7 @@ export const profile = {
 
   githubStats: "https://ghstats.dev/api/card?username=AyLZz17&theme=midnight",
 
-  githubAvatar: "/aylzz-github-avatar.png",
+  githubAvatar: "/aylzz-github-avatar.jpg",
 
   developerPhoto: "/daniel-ayala.png",
 }

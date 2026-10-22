@@ -1,0 +1,17 @@
+---
+interface Props {
+  number: string
+  title: string
+  subtitle: string
+}
+
+const { number, title, subtitle } = Astro.props
+---
+
+<div class="section-heading">
+  <div>
+    <p class="eyebrow">{number} / {subtitle}</p>
+    <h2>{title}</h2>
+  </div>
+  <span class="heading-rule" aria-hidden="true"></span>
+</div>

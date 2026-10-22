@@ -1,0 +1,10 @@
+{
+  "description": "Showcase your software development portfolio with easy access buttons to your GitHub profile, email, and WhatsApp for seamless networking.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

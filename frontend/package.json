@@ -1,0 +1,18 @@
+{
+  "name": "aylzz17-portfolio",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "packageManager": "pnpm@12.14.0",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "format": "oxfmt"
+  },
+  "devDependencies": {
+    "astro": "^7.4.2",
+    "oxfmt": "^0.2.0",
+    "typescript": "^5.7.0"
+  }
+}

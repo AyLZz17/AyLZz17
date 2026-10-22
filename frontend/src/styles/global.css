@@ -538,7 +538,8 @@ a:focus-visible {
 
 .profile-photo {
   position: relative;
-  height: 27rem;
+  height: auto;
+  aspect-ratio: 768 / 913;
   overflow: hidden;
   border-radius: 1.25rem;
   transform-style: preserve-3d;
@@ -549,12 +550,7 @@ a:focus-visible {
 }
 
 .profile-photo img {
-  object-position: center 23%;
-}
-
-.profile-photo:hover img {
-  transform: scale(1.025);
-  transition: transform 400ms ease;
+  object-fit: contain;
 }
 
 .photo-caption {
@@ -1302,7 +1298,7 @@ a:focus-visible {
   }
 
   .profile-photo {
-    height: 24rem;
+    height: auto;
   }
 
   .project-bottom {

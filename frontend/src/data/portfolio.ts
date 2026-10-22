@@ -23,7 +23,7 @@ export const profile = {
 
   githubAvatar: "/aylzz-github-avatar.jpg",
 
-  developerPhoto: "/daniel-ayala.png",
+  developerPhoto: "/daniel-ayala-perfil.png",
 }
 
 export const stack = [

@@ -6,7 +6,7 @@ export const profile = {
   role: "Software Developer & Software Engineer",
 
   summary:
-    "Desarrollador de software enfocado en crear soluciones web y APIs claras, escalables y mantenibles. Trabajo con desarrollo full-stack, bases de datos y automatización, y sigo aprendiendo sobre cloud, machine learning e inteligencia artificial.",
+    "Me especializo en desarrollo backend, APIs, bases de datos y automatización, con conocimientos básicos de frontend. Sigo aprendiendo sobre cloud, machine learning e inteligencia artificial.",
 
   github: "https://github.com/AyLZz17",
 

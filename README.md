@@ -8,7 +8,7 @@
 
 Desarrollo soluciones web y APIs con enfoque empresarial, combinando arquitectura, datos, cloud y machine learning.
 
-[GitHub](https://github.com/AyLZz17) · [Repositorios](https://github.com/AyLZz17?tab=repositories) · [📧 aylz.contact@gmail.com](mailto:aylz.contact@gmail.com)
+[GitHub](https://github.com/AyLZz17) · [Repositorios](https://github.com/AyLZz17?tab=repositories) · [📧 aylz.contact@gmail.com](mailto:aylz.contact@gmail.com) · [Portadolio Profesional](https://aylzz-profile.vercel.app)
 
 </div>
 
@@ -39,15 +39,12 @@ Me interesa especialmente aplicar buenas prácticas de arquitectura, control de 
 Tecnologías adicionales: DBeaver, Apache NetBeans,Codex, GitHub Copilot, Claude Code, OpenCode y Ollama.
 
 
-## Proyectos Activos
+## Proyectos en desarrollo
 
 | Proyecto | Descripción |
 | --- | --- |
 | [Sistema de Predicción Crypto - XMR Monero](https://github.com/AyLZz17/SistemaPrediccionCrypto-XMRMonero) | Análisis y predicción de datos relacionados con Monero. |
 | [Mai Repostería](https://github.com/AyLZz17/Mai-Reposteria-WebProject) | Aplicación web para una marca de repostería. |
-
-### Desplegados
-[Mai Reposteria: Tienda de emprendimiento de Reposteria ](https://mai-reposteria.app)
 
 
 ### Stats

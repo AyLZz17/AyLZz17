@@ -17,8 +17,6 @@ export const profile = {
   whatsapp:
     "https://wa.me/573178388661?text=Hola%20Daniel%2C%20vi%20tu%20portafolio%20y%20me%20gustar%C3%ADa%20conversar.",
 
-  deployedProject: "https://mai-reposteria.app",
-
   githubStats: "https://ghstats.dev/api/card?username=AyLZz17&theme=midnight",
 
   githubAvatar: "/aylzz-github-avatar.jpg",
@@ -75,7 +73,6 @@ export const projects = [
     description:
       "Experiencia web para una marca de repostería, creada para presentar sus productos y facilitar el contacto con sus clientes.",
     repository: "https://github.com/AyLZz17/Mai-Reposteria-WebProject",
-    live: profile.deployedProject,
     category: "Desarrollo web · E-commerce",
     tags: ["Desarrollo web", "Diseño responsive", "Tienda"],
   },

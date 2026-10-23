@@ -133,9 +133,6 @@ import { certificates, profile, projects, stack } from '../data/portfolio'
                 <ul class="project-tags">{project.tags.map((tag) => <li>{tag}</li>)}</ul>
                 <div class="project-links">
                   <a href={project.repository} target="_blank" rel="noreferrer">Código <span aria-hidden="true">↗</span></a>
-                  {project.live && (
-                    <a href={project.live} target="_blank" rel="noreferrer">Ver sitio <span aria-hidden="true">↗</span></a>
-                  )}
                 </div>
               </div>
             </div>

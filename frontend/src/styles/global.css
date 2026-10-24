@@ -334,28 +334,48 @@ a:focus-visible {
 
 .hero-socials {
   flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 1rem;
+  justify-content: flex-start;
+  gap: 0.65rem;
   margin-top: 3rem;
   padding-top: 1.2rem;
   border-top: 1px solid var(--line);
 }
 
-.hero-socials a {
-  gap: 0.65rem;
-  font: 0.63rem 'DM Mono', monospace;
-  letter-spacing: 0.07em;
+.hero-social-link {
+  display: grid;
+  width: 2.5rem;
+  aspect-ratio: 1;
+  place-items: center;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  color: var(--muted);
+  transition:
+    color 160ms ease,
+    border-color 160ms ease,
+    background 160ms ease;
+}
+
+.hero-social-link:hover {
+  border-color: var(--line);
+  background: rgb(255 255 255 / 4%);
+  color: #fff;
+}
+
+.social-icon {
+  width: 1.15rem;
+  height: 1.15rem;
 }
 
 .hero-social-pending {
   color: var(--faint);
-  font: 0.58rem 'DM Mono', monospace;
-  letter-spacing: 0.05em;
+  cursor: default;
 }
 
 .hero-location {
+  margin-left: auto;
   color: var(--faint);
-  font-size: 0.59rem;
+  font: 0.58rem 'DM Mono', monospace;
+  letter-spacing: 0.08em;
   text-align: right;
 }
 

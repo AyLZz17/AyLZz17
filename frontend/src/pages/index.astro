@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro'
 import SectionHeading from '../components/SectionHeading.astro'
+import SocialIcon from '../components/SocialIcon.astro'
 import { certificates, profile, projects, socialLinks, stack } from '../data/portfolio'
 ---
 
@@ -40,23 +41,25 @@ import { certificates, profile, projects, socialLinks, stack } from '../data/por
           <a class="button button-secondary" href="#contacto">Hablemos <span aria-hidden="true">↗</span></a>
         </div>
         <div class="hero-socials">
-          <a href={profile.github} target="_blank" rel="noreferrer">
-            <span>GITHUB</span>
-            <span aria-hidden="true">↗</span>
+          <a class="hero-social-link" href={profile.github} target="_blank" rel="noreferrer" aria-label="GitHub">
+            <SocialIcon name="GitHub" />
           </a>
           {socialLinks.map((social) => (
             social.href ? (
-              <a href={social.href} target="_blank" rel="noreferrer">
-                <span>{social.name.toUpperCase()}</span>
-                <span aria-hidden="true">↗</span>
+              <a class="hero-social-link" href={social.href} target="_blank" rel="noreferrer" aria-label={social.name}>
+                <SocialIcon name={social.name} />
               </a>
             ) : (
-              <span class="hero-social-pending" aria-label={`${social.name}: ${social.handle}`}>
-                {social.name.toUpperCase()} · PRÓXIMAMENTE
+              <span
+                class="hero-social-link hero-social-pending"
+                aria-label={`${social.name}: ${social.handle}`}
+                title={`${social.name}: ${social.handle}`}
+              >
+                <SocialIcon name={social.name} />
               </span>
             )
           ))}
-          <span class="hero-location">COLOMBIA · {profile.role.toUpperCase()}</span>
+          <span class="hero-location">COLOMBIA</span>
         </div>
       </div>
 

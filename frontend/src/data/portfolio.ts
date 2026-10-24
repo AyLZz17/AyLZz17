@@ -24,36 +24,77 @@ export const profile = {
   developerPhoto: "/daniel-ayala-perfil.png",
 }
 
+export const socialLinks = [
+  {
+    name: "Instagram",
+    handle: "@d.aylzz__",
+    href: "https://www.instagram.com/d.aylzz__/",
+  },
+
+  { name: "WhatsApp", handle: "Enviar un mensaje", href: profile.whatsapp },
+
+  {
+    name: "LinkedIn",
+    handle: "Daniel Ayala",
+    href: "https://www.linkedin.com/in/daniel-ayala-aylzz",
+  },
+
+  { name: "X", handle: "Enlace próximamente", href: null },
+]
+
 export const stack = [
   {
     category: "Lenguajes",
+
     items: ["Python", "Java", "JavaScript", "TypeScript", "C++", ".NET"],
   },
+
   {
     category: "Desarrollo web",
+
     items: ["Spring", "FastAPI", "Node.js", "React", "Tailwind CSS"],
   },
+
   {
     category: "Datos, cloud y herramientas",
+
     items: [
       "PostgreSQL",
+
       "MongoDB",
+
       "MySQL",
+
       "Oracle",
+
       "Docker",
+
       "AWS",
+
       "Git",
+
       "GitHub",
+
       "VS Code",
+
       "Visual Studio",
+
       "IntelliJ IDEA",
+
       "Linux",
+
       "DBeaver",
+
       "Apache NetBeans",
+
       "Codex",
+
       "GitHub Copilot",
+
       "Claude Code",
+
       "OpenCode",
+
       "Ollama",
     ],
   },
@@ -62,18 +103,27 @@ export const stack = [
 export const projects = [
   {
     title: "Sistema de Predicción Crypto - XMR Monero",
+
     description:
       "Análisis de datos históricos de Monero y experimentación con modelos para explorar tendencias y generar predicciones.",
+
     repository: "https://github.com/AyLZz17/SistemaPrediccionCrypto-XMRMonero",
+
     category: "Datos · Machine learning",
+
     tags: ["Python", "Análisis de datos", "Predicción"],
   },
+
   {
     title: "Mai Repostería",
+
     description:
       "Experiencia web para una marca de repostería, creada para presentar sus productos y facilitar el contacto con sus clientes.",
+
     repository: "https://github.com/AyLZz17/Mai-Reposteria-WebProject",
+
     category: "Desarrollo web · E-commerce",
+
     tags: ["Desarrollo web", "Diseño responsive", "Tienda"],
   },
 ]
@@ -81,15 +131,24 @@ export const projects = [
 export const certificates = [
   {
     title: "AWS Academy Graduate - Cloud Foundations",
+
     issuer: "AWS Academy",
+
     type: "Insignia de formación",
+
     image: "/aws-cloud-foundations-badge.png",
+
     file: "/certificates/aws-academy-cloud-foundations.pdf",
   },
+
   {
-    title: "Certificado de asistencia al curso de iniciación al desarrollo con IA",
+    title:
+      "Certificado de asistencia al curso de iniciación al desarrollo con IA",
+
     issuer: "Certificado de asistencia · Daniel Alejandro Ayala Porras",
+
     type: "Curso de desarrollo con inteligencia artificial",
+
     file: "/certificates/certificado-academico-daniel-ayala.pdf",
   },
 ]

@@ -1,7 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro'
 import SectionHeading from '../components/SectionHeading.astro'
-import { certificates, profile, projects, stack } from '../data/portfolio'
+import { certificates, profile, projects, socialLinks, stack } from '../data/portfolio'
 ---
 
 <BaseLayout
@@ -23,6 +23,7 @@ import { certificates, profile, projects, stack } from '../data/portfolio'
       <a href="#stack">Stack</a>
       <a href="#enfoque">Enfoque</a>
       <a href="#certificados">Certificados</a>
+      <a href="#redes">Redes</a>
       <a href="#contacto">Contacto</a>
     </nav>
     <a class="header-cta" href="#contacto">Hablemos <span aria-hidden="true">↗</span></a>
@@ -40,9 +41,21 @@ import { certificates, profile, projects, stack } from '../data/portfolio'
         </div>
         <div class="hero-socials">
           <a href={profile.github} target="_blank" rel="noreferrer">
-            <span>GITHUB.COM/AYLZZ17</span>
+            <span>GITHUB</span>
             <span aria-hidden="true">↗</span>
           </a>
+          {socialLinks.map((social) => (
+            social.href ? (
+              <a href={social.href} target="_blank" rel="noreferrer">
+                <span>{social.name.toUpperCase()}</span>
+                <span aria-hidden="true">↗</span>
+              </a>
+            ) : (
+              <span class="hero-social-pending" aria-label={`${social.name}: ${social.handle}`}>
+                {social.name.toUpperCase()} · PRÓXIMAMENTE
+              </span>
+            )
+          ))}
           <span class="hero-location">COLOMBIA · {profile.role.toUpperCase()}</span>
         </div>
       </div>
@@ -243,8 +256,28 @@ import { certificates, profile, projects, stack } from '../data/portfolio'
       </div>
     </section>
 
+    <section id="redes" class="section-anchor section-block social-section">
+      <SectionHeading number="07" title="Redes" subtitle="Encuéntrame" />
+      <div class="social-grid">
+        {socialLinks.map((social) => (
+          social.href ? (
+            <a class="social-card glass" href={social.href} target="_blank" rel="noreferrer">
+              <span class="social-name">{social.name}</span>
+              <span class="social-handle">{social.handle}</span>
+              <span class="social-arrow" aria-hidden="true">↗</span>
+            </a>
+          ) : (
+            <div class="social-card glass social-card-pending" aria-label={`${social.name}: ${social.handle}`}>
+              <span class="social-name">{social.name}</span>
+              <span class="social-handle">{social.handle}</span>
+            </div>
+          )
+        ))}
+      </div>
+    </section>
+
     <section id="contacto" class="section-anchor contact-section">
-      <p class="eyebrow">07 / CONTACTO</p>
+      <p class="eyebrow">08 / CONTACTO</p>
       <div class="contact-main">
         <div>
           <h2>¿Creamos algo<br /><span>bueno juntos?</span></h2>

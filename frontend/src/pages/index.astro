@@ -41,9 +41,9 @@ import { certificates, profile, projects, socialLinks, stack } from '../data/por
         </div>
       </div>
 
-      <div class="hero-identity" data-reveal role="img" aria-label="Identidad visual de AyLZz">
-        <div class="identity-orbit identity-orbit-one"></div>
-        <div class="identity-orbit identity-orbit-two"></div>
+      <div class="hero-identity" data-reveal role="group" aria-label="Perfil y redes sociales">
+        <div class="identity-orbit identity-orbit-one" aria-hidden="true"></div>
+        <div class="identity-orbit identity-orbit-two" aria-hidden="true"></div>
         <span class="identity-monogram" aria-hidden="true">AYLZ<span class="identity-code-mark">&lt;/&gt;</span></span>
         <div class="identity-card glass">
           <div class="identity-card-top">
@@ -55,6 +55,26 @@ import { certificates, profile, projects, socialLinks, stack } from '../data/por
           </div>
           <div class="identity-focus"><span>WEB</span><span>APIs</span><span>DATOS</span><span>CLOUD</span></div>
         </div>
+        <nav class="identity-socials" aria-label="Redes sociales">
+          <a class="contact-social-link" href={profile.github} target="_blank" rel="noreferrer" aria-label="GitHub">
+            <SocialIcon name="GitHub" />
+          </a>
+          {socialLinks.map((social) => (
+            social.href ? (
+              <a class="contact-social-link" href={social.href} target="_blank" rel="noreferrer" aria-label={social.name}>
+                <SocialIcon name={social.name} />
+              </a>
+            ) : (
+              <span
+                class="contact-social-link contact-social-pending"
+                aria-label={`${social.name}: ${social.handle}`}
+                title={`${social.name}: ${social.handle}`}
+              >
+                <SocialIcon name={social.name} />
+              </span>
+            )
+          ))}
+        </nav>
         <span class="hero-ornament" aria-hidden="true">AYLZZ / 01</span>
       </div>
     </section>

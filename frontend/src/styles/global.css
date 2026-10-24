@@ -395,6 +395,20 @@ a:focus-visible {
     border-color 220ms ease;
 }
 
+.identity-socials {
+  position: absolute;
+  right: 0;
+  bottom: 1rem;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  gap: 0.65rem;
+}
+
+.identity-socials .contact-social-link {
+  width: 2.4rem;
+}
+
 .identity-card:hover {
   transform: translateY(-4px);
   border-color: rgb(248 113 113 / 38%);

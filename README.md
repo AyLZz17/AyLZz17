@@ -6,7 +6,7 @@
 
 ### Software Developer · Software Engineer
 
-Desarrollo soluciones web modalidad Backend y APIs con enfoque empresarial, combinando arquitectura, datos, cloud y machine learning.
+Desarrollo soluciones para aplicaciones web y APIs con enfoque empresarial, combinando arquitectura, datos, cloud y machine learning.
 
 [GitHub](https://github.com/AyLZz17) · [Repositorios](https://github.com/AyLZz17?tab=repositories) · [📧 aylz.contact@gmail.com](mailto:aylz.contact@gmail.com) · [Portadolio Profesional](https://aylzz-profile.vercel.app)
 
@@ -17,6 +17,8 @@ Desarrollo soluciones web modalidad Backend y APIs con enfoque empresarial, comb
 Como desarrollador de software, me enfoco en transformar necesidades reales en soluciones digitales claras, escalables y mantenibles. Mi experiencia e intereses abarcan el desarrollo Backend con conocimientos basicos en Frontend, la integración de bases de datos y la automatización de procesos.
 
 Me interesa especialmente aplicar buenas prácticas de arquitectura, control de versiones, documentación y despliegue cloud para crear productos que aporten valor al negocio. Actualmente continúo fortaleciendo mis conocimientos en machine learning, AWS y herramientas de inteligencia artificial aplicadas al desarrollo.
+
+Cuento con un nivel de inglés B1+ en continúo aprendizaje. 
 
 ## Stack tecnológico
 

@@ -92,8 +92,6 @@ a:focus-visible {
 .main-nav,
 .header-cta,
 .hero-actions,
-.hero-socials,
-.hero-socials a,
 .hero-footer,
 .profile-facts,
 .card-topline,
@@ -162,7 +160,6 @@ a:focus-visible {
 }
 
 .header-cta span,
-.hero-socials a > span:last-child,
 .inline-link span {
   color: var(--red);
 }
@@ -332,51 +329,9 @@ a:focus-visible {
   background: rgb(239 68 68 / 9%);
 }
 
-.hero-socials {
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  gap: 0.65rem;
-  margin-top: 3rem;
-  padding-top: 1.2rem;
-  border-top: 1px solid var(--line);
-}
-
-.hero-social-link {
-  display: grid;
-  width: 2.5rem;
-  aspect-ratio: 1;
-  place-items: center;
-  border: 1px solid transparent;
-  border-radius: 50%;
-  color: var(--muted);
-  transition:
-    color 160ms ease,
-    border-color 160ms ease,
-    background 160ms ease;
-}
-
-.hero-social-link:hover {
-  border-color: var(--line);
-  background: rgb(255 255 255 / 4%);
-  color: #fff;
-}
-
 .social-icon {
   width: 1.15rem;
   height: 1.15rem;
-}
-
-.hero-social-pending {
-  color: var(--faint);
-  cursor: default;
-}
-
-.hero-location {
-  margin-left: auto;
-  color: var(--faint);
-  font: 0.58rem 'DM Mono', monospace;
-  letter-spacing: 0.08em;
-  text-align: right;
 }
 
 .hero-identity {
@@ -1247,52 +1202,45 @@ a:focus-visible {
   margin-top: 2rem;
 }
 
-.social-grid {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 1rem;
+.contact-socials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.7rem;
+  margin-top: 1.5rem;
 }
 
-.social-card {
-  position: relative;
+.contact-social-link {
   display: grid;
-  min-height: 7rem;
-  align-content: center;
-  gap: 0.55rem;
-  padding: 1.25rem;
-  border-radius: 0.9rem;
+  width: 2.75rem;
+  aspect-ratio: 1;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: rgb(255 255 255 / 3%);
+  color: var(--muted);
   transition:
     transform 180ms ease,
     border-color 180ms ease,
-    background 180ms ease;
+    background 180ms ease,
+    color 180ms ease;
 }
 
-a.social-card:hover {
-  transform: translateY(-3px);
-  border-color: rgb(248 113 113 / 40%);
-  background: rgb(255 255 255 / 8%);
+a.contact-social-link:hover {
+  transform: translateY(-2px);
+  border-color: rgb(248 113 113 / 42%);
+  background: rgb(239 68 68 / 9%);
+  color: #fff;
 }
 
-.social-name {
-  font-size: 1rem;
-  font-weight: 600;
+.contact-social-link .social-icon {
+  width: 1.2rem;
+  height: 1.2rem;
 }
 
-.social-handle {
+.contact-social-pending {
   color: var(--faint);
-  font-size: 0.75rem;
-}
-
-.social-arrow {
-  position: absolute;
-  top: 1.25rem;
-  right: 1.25rem;
-  color: var(--red);
-}
-
-.social-card-pending {
-  border-style: dashed;
-  opacity: 0.72;
+  cursor: default;
 }
 
 .contact-option {
@@ -1495,10 +1443,6 @@ a.social-card:hover {
     font-size: 0.95rem;
   }
 
-  .hero-socials {
-    margin-top: 2rem;
-  }
-
   .hero-identity {
     min-height: 26rem;
     margin-top: 1rem;
@@ -1572,8 +1516,7 @@ a.social-card:hover {
   .stack-grid,
   .project-grid,
   .certificate-grid,
-  .contact-actions,
-  .social-grid {
+  .contact-actions {
     grid-template-columns: 1fr;
   }
 

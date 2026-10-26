@@ -2,22 +2,25 @@
 import '../styles/global.css'
 
 interface Props {
+  lang?: 'es' | 'en'
   title?: string
   description?: string
 }
 
 const {
+  lang = 'es',
   title = 'Daniel Ayala (AYLZZ) | Desarrollador de software',
   description = 'Portafolio de Daniel Ayala, AYLZZ. Especializado en desarrollo backend, APIs, bases de datos y automatización; conocimientos básicos de frontend.',
 } = Astro.props
 ---
 
 <!doctype html>
-<html lang="es">
+<html lang={lang}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
+    <meta property="og:locale" content={lang === 'en' ? 'en_US' : 'es_CO'} />
     <meta name="theme-color" content="#10090b" />
     <link rel="icon" type="image/png" href="/favicon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />

@@ -2,6 +2,12 @@
 
 Static portfolio built with Astro.
 
+## Languages
+
+The Spanish portfolio is available at `/` and the English version at `/en/`.
+The root page uses the browser's preferred language on the first visit; using
+the language switcher saves that choice for future visits.
+
 ## Commands
 
 - `pnpm dev` starts the local development server.

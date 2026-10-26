@@ -91,6 +91,7 @@ a:focus-visible {
 .brand,
 .main-nav,
 .header-cta,
+.language-switch,
 .hero-actions,
 .hero-footer,
 .profile-facts,
@@ -150,13 +151,30 @@ a:focus-visible {
 }
 
 .main-nav a:hover,
-.header-cta:hover {
+.header-cta:hover,
+.language-switch a:hover {
   color: var(--red);
 }
 
 .header-cta {
   gap: 0.6rem;
   color: #fff;
+}
+
+.language-switch a {
+  display: inline-grid;
+  min-width: 2.35rem;
+  min-height: 2.35rem;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 0.65rem;
+  color: #fff;
+  font: 0.7rem 'DM Mono', monospace;
+  transition: border-color 160ms ease, color 160ms ease;
+}
+
+.language-switch a:hover {
+  border-color: var(--red);
 }
 
 .header-cta span,

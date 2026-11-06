@@ -102,6 +102,12 @@ export const projects = [
 
     repository: "https://github.com/AyLZz17/Mai-Reposteria-WebProject",
   },
+
+  {
+    title: "ZRO ESPORTS",
+
+    demo: "https://zero-esports-pg-web.vercel.app",
+  },
 ]
 
 export const certificates = [

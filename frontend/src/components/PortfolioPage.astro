@@ -32,6 +32,7 @@ const localizedCertificates = certificates.map((certificate, index) => ({
   ...certificate,
   ...copy.certificates.items[index],
 }))
+const projectMarks = ['XMR', 'MAI', 'ZRO']
 ---
 
 <BaseLayout
@@ -156,7 +157,7 @@ const localizedCertificates = certificates.map((certificate, index) => ({
           <article class="project-card glass" data-reveal data-tilt>
             <div class:list={['project-visual', `project-visual-${index + 1}`]} aria-hidden="true">
               <span class="project-orbit"></span>
-              <span class="project-mark">{index === 0 ? 'XMR' : 'MAI'}</span>
+              <span class="project-mark">{projectMarks[index] ?? 'WEB'}</span>
               <span class="project-visual-caption">{project.category}</span>
               <span class="project-visual-arrow">↗</span>
             </div>
@@ -170,7 +171,12 @@ const localizedCertificates = certificates.map((certificate, index) => ({
               <div class="project-bottom">
                 <ul class="project-tags">{project.tags.map((tag) => <li>{tag}</li>)}</ul>
                 <div class="project-links">
-                  <a href={project.repository} target="_blank" rel="noreferrer">{copy.projects.code} <span aria-hidden="true">↗</span></a>
+                  {project.repository && (
+                    <a href={project.repository} target="_blank" rel="noreferrer">{copy.projects.code} <span aria-hidden="true">↗</span></a>
+                  )}
+                  {project.demo && (
+                    <a href={project.demo} target="_blank" rel="noreferrer">{copy.projects.demo} <span aria-hidden="true">↗</span></a>
+                  )}
                 </div>
               </div>
             </div>

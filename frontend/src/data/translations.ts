@@ -102,6 +102,8 @@ interface PortfolioTranslations {
 
     code: string
 
+    demo: string
+
     more: string
 
     items: ProjectTranslation[]
@@ -281,11 +283,13 @@ export const translations: Record<Language, PortfolioTranslations> = {
       subtitle: "Proyectos en desarrollo continuo",
 
       intro:
-        "Dos proyectos en evolución constante, con una misma intención: construir soluciones útiles.",
+        "Tres proyectos en evolución constante, con una misma intención: construir soluciones útiles.",
 
       label: "PROYECTO",
 
       code: "Código",
+
+      demo: "Demo",
 
       more: "MÁS PROYECTOS EN GITHUB",
 
@@ -306,6 +310,15 @@ export const translations: Record<Language, PortfolioTranslations> = {
             "Experiencia web para una marca de repostería, creada para presentar sus productos y facilitar el contacto con sus clientes.",
 
           tags: ["Desarrollo web", "Diseño responsive", "Tienda"],
+        },
+
+        {
+          category: "Desarrollo web · Esports",
+
+          description:
+            "Página web estática totalmente personalizada para equipo de esports.",
+
+          tags: ["Desarrollo web", "Diseño personalizado", "Esports"],
         },
       ],
     },
@@ -519,11 +532,13 @@ export const translations: Record<Language, PortfolioTranslations> = {
       subtitle: "Projects in continuous development",
 
       intro:
-        "Two constantly evolving projects with one shared goal: building useful solutions.",
+        "Three constantly evolving projects with one shared goal: building useful solutions.",
 
       label: "PROJECT",
 
       code: "Code",
+
+      demo: "Live demo",
 
       more: "MORE PROJECTS ON GITHUB",
 
@@ -544,6 +559,15 @@ export const translations: Record<Language, PortfolioTranslations> = {
             "A web experience for a bakery brand, created to showcase its products and make it easy for customers to get in touch.",
 
           tags: ["Web development", "Responsive design", "Online store"],
+        },
+
+        {
+          category: "Web development · Esports",
+
+          description:
+            "A fully customized static website for an esports team.",
+
+          tags: ["Web development", "Custom design", "Esports"],
         },
       ],
     },

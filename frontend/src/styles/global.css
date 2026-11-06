@@ -913,6 +913,17 @@ a:focus-visible {
   transform: rotate(25deg);
 }
 
+.project-visual-3 {
+  background:
+    radial-gradient(ellipse at 50% 0%, rgb(127 170 255 / 22%), transparent 58%),
+    linear-gradient(135deg, #111827, #101014);
+}
+
+.project-visual-3 .project-orbit {
+  border-color: rgb(147 197 253 / 32%);
+  transform: rotate(-12deg);
+}
+
 .project-visual-caption,
 .project-visual-arrow {
   position: absolute;

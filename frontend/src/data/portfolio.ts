@@ -94,7 +94,7 @@ export const projects = [
   {
     title: "Sistema de Predicción Crypto - XMR Monero",
 
-    repository: "https://github.com/AyLZz17/SistemaPrediccionCrypto-XMRMonero",
+    repository: "https://github.com/AyLZz17/XMRPrediction-Lab",
   },
 
   {

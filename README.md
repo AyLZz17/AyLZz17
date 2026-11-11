@@ -45,7 +45,7 @@ Tecnologías adicionales: DBeaver, Apache NetBeans,Codex, GitHub Copilot, Claude
 
 | Proyecto | Descripción |
 | --- | --- |
-| [Sistema de Predicción Crypto - XMR Monero](https://github.com/AyLZz17/SistemaPrediccionCrypto-XMRMonero) | Análisis y predicción de datos relacionados con Monero. |
+| [Sistema de Predicción Crypto - XMR Monero](https://github.com/AyLZz17/XMRPrediction-Lab) | Análisis y predicción de datos relacionados con Monero. |
 | [Mai Repostería](https://github.com/AyLZz17/Mai-Reposteria-WebProject) | Aplicación web para una marca de repostería. |
 
 
